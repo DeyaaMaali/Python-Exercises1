@@ -138,6 +138,7 @@ else:
 
 
 """
+Ex9: But Printing Stars
 n = int(input('enter number '))
 
 for x in range(n):
@@ -221,36 +222,4 @@ Ex11:
 
     
     
-n = int(input('enter number '))
-c = 1
-for x in range(n):
-    for y in range (n-x-1):
-        print(" ", end ="")
-        
-    for z in range (x+1):
-        print(c, end="")
-        c=c+1
-        if z == x:
-            c=c-1
-            for m in range (x):
-                c=c-1
-                print(c,end="")
-    c = 1
-    print("\n", end ="")
-    
-
-for x in range(n-2,-1,-1):
-    for y in range (n-1-x):
-        print(" ", end ="")
-        
-    for z in range (x*2+1):
-        if(z >= (x*2+1)//2):
-            print(c, end="")
-            c=c-1
-        else:
-            print(c, end="")
-            c=c+1
-       
-    print("\n", end ="")
-    c=1
     
