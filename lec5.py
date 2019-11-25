@@ -107,11 +107,11 @@ Created on Mon Nov 25 09:22:32 2019
 
 class Employee:
     def __init__(self, number, name, address, salary, jobTitle):
-        self.number = number
-        self.__name = name
-        self.__address = address
-        self.__salary = salary
-        self.__jobTitle = jobTitle
+        self.number = int(number)
+        self.__name = str(name)
+        self.__address = str(address)
+        self.__salary = float(salary)
+        self.__jobTitle = str(jobTitle)
     
     def getName(self):
         return self.__name
