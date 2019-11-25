@@ -7,6 +7,7 @@ Created on Mon Nov 25 09:22:32 2019
 # constructor or initializer 
 
 # =============================================================================
+# Exampe1
 # class Person :
 #     def __init__(self, name): 
 #         self.name = name 
@@ -25,6 +26,7 @@ Created on Mon Nov 25 09:22:32 2019
 # =============================================================================
 
 # =============================================================================
+# Example 2
 # class Encapsulation(object): 
 #     def __init__(self, a, b, c): 
 #         self.Apublic = a 
@@ -46,6 +48,7 @@ Created on Mon Nov 25 09:22:32 2019
 
 
 # =============================================================================
+# Example 3
 # class Parent(object):
 #     def __init__(self, name, age, salary):
 #         self.name = name
@@ -76,7 +79,7 @@ Created on Mon Nov 25 09:22:32 2019
 # =============================================================================
 
 # =============================================================================
-# 
+# Exampe 4
 # class Circle: 
 #     def __init__(self, radius):        
 #         self.__radius = radius
@@ -100,6 +103,7 @@ Created on Mon Nov 25 09:22:32 2019
 # c3 = c1 + c2 
 # print(c3.getRadius())
 # =============================================================================
+
 
 class Employee:
     def __init__(self, number, name, address, salary, jobTitle):
@@ -159,6 +163,8 @@ print("\n")
 emp1.setAddress("USA")
 print("Employee1 New Address : ", end ="")
 print(emp1.getAddress())
+
+print("\n")
 
 del emp1
 del emp2
