@@ -274,12 +274,10 @@ studentList = [Student1,Student2,Student3,Student4]
 # =============================================================================
 
 #EX17:
-# =============================================================================
-# print("Test Delete")
-# del employeeList
-# del studentList
-# 
-# del Student1, Student2, Student3, Student4, Employee1, Employee2, Employee3, Employee4 
-# =============================================================================
+print("Test Delete")
+del employeeList
+del studentList
+
+del Student1, Student2, Student3, Student4, Employee1, Employee2, Employee3, Employee4 
 
     
