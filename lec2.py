@@ -78,20 +78,24 @@ for x in range(10):
 
 """
 
-"""
-Ex3:
+
+# =============================================================================
+# Ex3:
+# =============================================================================
     
-n = int(input('enter number '))
-str = ""
-for x in range(n):
-    str = str + "*"
-    print(str);
-    
-for y in range (n):
-    for a in range(n-1,y,-1): 
-        print("*", end="")
-    print("\n", end="")
-"""
+# =============================================================================
+# n = int(input('enter number '))
+# str = ""
+# for x in range(n):
+#     str = str + "*"
+#     print(str);
+#     
+# for y in range (n):
+#     for a in range(n-1,y,-1): 
+#         print("*", end="")
+#     print("\n", end="")
+# =============================================================================
+
 
 """
 Ex4:
@@ -137,34 +141,41 @@ else:
 """
 
 
-"""
-Ex9: But Printing Stars
-n = int(input('enter number '))
 
-for x in range(n):
-    for y in range (n-x-1):
-        print(" ", end ="")
-        
-    for z in range (x+1):
-        print("*", end="")
-        if z == x:
-            for m in range (x):
-                print("*",end="")
-    print("\n", end ="")
-    
+# =============================================================================
+# Ex9: But Printing Stars
+# =============================================================================
 
+# =============================================================================
+# n = int(input('enter number '))
+# 
+# for x in range(n):
+#     for y in range (n-x-1):
+#         print(" ", end ="")
+#         
+#     for z in range (x+1):
+#         print("*", end="")
+#         if z == x:
+#             for m in range (x):
+#                 print("*",end="")
+#     print("\n", end ="")
+#     
+# 
+# 
+# for x in range(n-2,-1,-1):
+#     for y in range (n-1-x):
+#         print(" ", end ="")
+#         
+#     for z in range (x*2+1):
+#         print("*", end="")
+#        
+#     print("\n", end ="")
+# 
+# =============================================================================
 
-for x in range(n-2,-1,-1):
-    for y in range (n-1-x):
-        print(" ", end ="")
-        
-    for z in range (x*2+1):
-        print("*", end="")
-       
-    print("\n", end ="")
-"""
-"""
-Ex9:
+# =============================================================================
+# Ex9:
+# =============================================================================
 n = int(input('enter number '))
 c = 1
 for x in range(n):
@@ -198,7 +209,7 @@ for x in range(n-2,-1,-1):
     print("\n", end ="")
     c=1
  
-"""
+
 """
 Ex10:
     
